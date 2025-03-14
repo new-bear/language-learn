@@ -16,7 +16,6 @@ int main() {
   }
   std::cout << std::endl;
 
-
   std::vector<int> intVec2;
   std::fill_n(std::back_inserter(intVec2), 3, 0); // 使用插入迭代器
   for (auto in : intVec2) {

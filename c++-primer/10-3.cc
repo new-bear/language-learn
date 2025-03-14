@@ -1,8 +1,8 @@
-
 #include <algorithm>
 #include <iostream>
 #include <string>
 #include <vector>
+
 void biggies(std::vector<std::string> &words,
              std::vector<std::string>::size_type sz) {
   // 按长度排序
