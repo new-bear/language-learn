@@ -9,7 +9,7 @@ void initDynamicArray(std::size_t size) {
 
   int *p4 = new int[size]; // 可以动态制定数组大小
 
-  delete[] p1; // 动态数组必须使用 delete[] 释放
+  delete[] p1; // 动态数组必须使用 delete[] 释放，按倒序释放
   delete[] p2;
   delete[] p3;
   delete[] p4;
